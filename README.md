@@ -1,15 +1,15 @@
 # Karabiner-custom (usagizmo-custom.json)
 
-USキーボードで日本語を使用するための設定集です。
+USキーボードで日本語を使用するための[Karabiner-Elements](https://karabiner-elements.pqrs.org/)の設定集です。
 
-- controlキーを単体で押したときに、英数キーも送信する
-- controlキーを押したときに、英数キーも送信する
-- escapeキーを押したときに、英数キーも送信する
-- control+cを押したときに、英数キーも送信する
-- shiftキーを単体で押したときに、かなキーも送信する
-- control+shiftを押したときに、かなキーを送信する
-- shift+spaceを押したときに、かなキーを送信する
-- control+;を押したときに、enterキーを送信する
+- `control` キーを単体で押したときに、`英数` キーも送信する
+- `control` キーを押したときに、`英数` キーも送信する
+- `escape` キーを押したときに、`英数` キーも送信する
+- `control+c` を押したときに、`英数` キーも送信する
+- `shift` キーを単体で押したときに、`かな` キーも送信する
+- `control+shift` を押したときに、`かな` キーを送信する
+- `shift+space` を押したときに、`かな` キーを送信する
+- `control+;` を押したときに、`enter` キーを送信する
 
 ## Karabiner への登録方法
 
