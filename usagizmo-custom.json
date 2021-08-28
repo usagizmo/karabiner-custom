@@ -32,36 +32,6 @@
       ]
     },
     {
-      "description": "shiftキーを単体で押したときに、かなキーも送信する",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "left_shift"
-          },
-          "parameters": {
-            "basic.to_if_held_down_threshold_milliseconds": 100
-          },
-          "to": [
-            {
-              "key_code": "left_shift",
-              "lazy": true
-            }
-          ],
-          "to_if_held_down": [
-            {
-              "key_code": "left_shift"
-            }
-          ],
-          "to_if_alone": [
-            {
-              "key_code": "japanese_kana"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "description": "controlキーを押したときに、英数キーも送信する",
       "manipulators": [
         {
@@ -121,6 +91,78 @@
               "modifiers": [
                 "control"
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "shiftキーを単体で押したときに、かなキーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_shift"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "left_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_kana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "control+shiftを押したときに、かなキーを送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_shift",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "japanese_kana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "shift+spaceを押したときに、かなキーを送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "japanese_kana"
             }
           ]
         }
