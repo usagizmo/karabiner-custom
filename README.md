@@ -3,6 +3,7 @@
 USキーボードで日本語を使用するための[Karabiner-Elements](https://karabiner-elements.pqrs.org/)の設定集です。
 
 - `control` キーを単体で押したときに、`英数` キーも送信する
+- `shift` キーを単体で押したときに、`英数` キーも送信する
 - `control` キーを押したときに、`英数` キーも送信する
 - `escape` キーを押したときに、`英数` キーも送信する
 - `control+c` を押したときに、`英数` キーも送信する
