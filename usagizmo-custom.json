@@ -278,6 +278,38 @@
           ]
         }
       ]
+    },
+    {
+      "description": "alt（右）を押したときに、commandキーを送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_option"
+          },
+          "to": [
+            {
+              "key_code": "right_command"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "control（右）を押したときに、altキーを送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_control"
+          },
+          "to": [
+            {
+              "key_code": "right_option"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
