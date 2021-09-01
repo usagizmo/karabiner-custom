@@ -32,7 +32,7 @@
       ]
     },
     {
-      "description": "shiftキーを単体で押したときに、英数キーも送信する",
+      "description": "shift（左）キーを単体で押したときに、英数キーも送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -51,6 +51,36 @@
           "to_if_held_down": [
             {
               "key_code": "left_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_eisuu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "shift（右）キーを単体で押したときに、英数キーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_shift"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "right_shift",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "right_shift"
             }
           ],
           "to_if_alone": [
@@ -127,7 +157,7 @@
       ]
     },
     {
-      "description": "shiftキーを単体で押したときに、かなキーも送信する",
+      "description": "shift（左）キーを単体で押したときに、かなキーも送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -146,6 +176,36 @@
           "to_if_held_down": [
             {
               "key_code": "left_shift"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_kana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "shift（右）キーを単体で押したときに、かなキーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_shift"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "right_shift",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "right_shift"
             }
           ],
           "to_if_alone": [
