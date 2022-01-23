@@ -18,7 +18,9 @@ USキーボードで日本語を使用するための[Karabiner-Elements](https:
 - `shift+space` を押したときに、`かな` キーを送信する
 - `control+;` を押したときに、`enter` キーを送信する
 - `alt（右）` を押したときに、`command` キーを送信する
+- `alt（右）` を押したときに、`command` キーを送信する（＋単体かな）
 - `control（右）` を押したときに、`alt` キーを送信する
+- `control（右）` を押したときに、`alt` キーを送信する（＋単体かな）
 
 ## Karabiner への登録方法
 

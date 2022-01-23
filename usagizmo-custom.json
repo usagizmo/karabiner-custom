@@ -416,6 +416,36 @@
       ]
     },
     {
+      "description": "alt（右）を押したときに、commandキーを送信する（＋単体かな）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_option"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "right_command",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "right_command"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_kana"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "control（右）を押したときに、altキーを送信する",
       "manipulators": [
         {
@@ -426,6 +456,36 @@
           "to": [
             {
               "key_code": "right_option"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "control（右）を押したときに、altキーを送信する（＋単体かな）",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_control"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "right_option",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "right_option"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_kana"
             }
           ]
         }
