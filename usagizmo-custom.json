@@ -182,6 +182,66 @@
       ]
     },
     {
+      "description": "option（左）キーを単体で押したときに、英数キーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_option"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "left_option",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "left_option"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_eisuu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "option（右）キーを単体で押したときに、英数キーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_option"
+          },
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 100
+          },
+          "to": [
+            {
+              "key_code": "right_option",
+              "lazy": true
+            }
+          ],
+          "to_if_held_down": [
+            {
+              "key_code": "right_option"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "japanese_eisuu"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "controlキーを押したときに、英数キーも送信する",
       "manipulators": [
         {
@@ -430,7 +490,7 @@
       ]
     },
     {
-      "description": "alt（右）を押したときに、commandキーを送信する",
+      "description": "option（右）を押したときに、commandキーを送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -446,7 +506,7 @@
       ]
     },
     {
-      "description": "alt（右）を押したときに、commandキーを送信する（＋単体かな）",
+      "description": "option（右）を押したときに、commandキーを送信する（＋単体かな）",
       "manipulators": [
         {
           "type": "basic",
@@ -476,7 +536,7 @@
       ]
     },
     {
-      "description": "control（右）を押したときに、altキーを送信する",
+      "description": "control（右）を押したときに、optionキーを送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -492,7 +552,7 @@
       ]
     },
     {
-      "description": "control（右）を押したときに、altキーを送信する（＋単体かな）",
+      "description": "control（右）を押したときに、optionキーを送信する（＋単体かな）",
       "manipulators": [
         {
           "type": "basic",
