@@ -307,6 +307,44 @@
       ]
     },
     {
+      "description": "option（左）キーを押したときに、英数キーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_option"
+          },
+          "to": [
+            {
+              "key_code": "japanese_eisuu"
+            },
+            {
+              "key_code": "left_option"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "option（右）キーを押したときに、英数キーも送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_option"
+          },
+          "to": [
+            {
+              "key_code": "japanese_eisuu"
+            },
+            {
+              "key_code": "right_option"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "command（左）キーを単体で押したときに、かなキーも送信する",
       "manipulators": [
         {
