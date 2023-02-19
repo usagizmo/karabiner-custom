@@ -2,7 +2,7 @@
   "title": "Customize",
   "rules": [
     {
-      "description": "controlキーを単体で押したときに、英数キーも送信する",
+      "description": "`control` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "description": "caps lockキーを単体で押したときに、英数キーも送信する",
+      "description": "`caps lock` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "description": "command（左）キーを単体で押したときに、英数キーも送信する",
+      "description": "`command（左）` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "description": "command（右）キーを単体で押したときに、英数キーも送信する",
+      "description": "`command（右）` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "description": "shift（左）キーを単体で押したときに、英数キーも送信する",
+      "description": "`shift（左）` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "description": "shift（右）キーを単体で押したときに、英数キーも送信する",
+      "description": "`shift（右）` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "description": "option（左）キーを単体で押したときに、英数キーも送信する",
+      "description": "`option（左）` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "description": "option（右）キーを単体で押したときに、英数キーも送信する",
+      "description": "`option（右）` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "description": "controlキーを押したときに、英数キーも送信する",
+      "description": "`control` を押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "description": "escapeキーを押したときに、英数キーも送信する",
+      "description": "`escape` を押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -280,7 +280,7 @@
       ]
     },
     {
-      "description": "control+cを押したときに、英数キーも送信する",
+      "description": "`control+c` を押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "description": "option（左）キーを押したときに、英数キーも送信する",
+      "description": "`option（左）` を押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "description": "option（右）キーを押したときに、英数キーも送信する",
+      "description": "`option（右）` を押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -345,7 +345,7 @@
       ]
     },
     {
-      "description": "command（左）キーを単体で押したときに、かなキーも送信する",
+      "description": "`command（左）` を単体で押したときに、`かな` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -375,7 +375,7 @@
       ]
     },
     {
-      "description": "command（右）キーを単体で押したときに、かなキーも送信する",
+      "description": "`command（右）` を単体で押したときに、`かな` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -405,7 +405,7 @@
       ]
     },
     {
-      "description": "shift（左）キーを単体で押したときに、かなキーも送信する",
+      "description": "`shift（左）` を単体で押したときに、`かな` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "description": "shift（右）キーを単体で押したときに、かなキーも送信する",
+      "description": "`shift（右）` を単体で押したときに、`かな` も送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -465,7 +465,7 @@
       ]
     },
     {
-      "description": "control+shiftを押したときに、かなキーを送信する",
+      "description": "`control+shift` を押したときに、`かな` を送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -486,7 +486,7 @@
       ]
     },
     {
-      "description": "shift+spaceを押したときに、かなキーを送信する",
+      "description": "`shift+space` を押したときに、`かな` を送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "description": "control+;を押したときに、enterキーを送信する",
+      "description": "`control+;` を押したときに、`enter` を送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -528,7 +528,7 @@
       ]
     },
     {
-      "description": "option（右）を押したときに、commandキーを送信する",
+      "description": "`option（右）` を押したときに、`command` を送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "description": "option（右）を押したときに、commandキーを送信する（＋単体かな）",
+      "description": "`option（右）` を押したときに、`command` を送信する（＋単体かな）",
       "manipulators": [
         {
           "type": "basic",
@@ -574,7 +574,7 @@
       ]
     },
     {
-      "description": "control（右）を押したときに、optionキーを送信する",
+      "description": "`control（右）` を押したときに、`option` を送信する",
       "manipulators": [
         {
           "type": "basic",
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "description": "control（右）を押したときに、optionキーを送信する（＋単体かな）",
+      "description": "`control（右）` を押したときに、`option` を送信する（＋単体かな）",
       "manipulators": [
         {
           "type": "basic",
