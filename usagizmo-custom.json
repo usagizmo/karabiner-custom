@@ -528,6 +528,22 @@
       ]
     },
     {
+      "description": "`caps_lock` を押したときに、`control` を送信する",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "`option（右）` を押したときに、`command` を送信する",
       "manipulators": [
         {

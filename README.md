@@ -22,6 +22,7 @@ USキーボードで日本語を使用するための[Karabiner-Elements](https:
 - `control+shift` を押したときに、`かな` を送信する
 - `shift+space` を押したときに、`かな` を送信する
 - `control+;` を押したときに、`enter` を送信する
+- `caps_lock` を押したときに、`control` を送信する
 - `option（右）` を押したときに、`command` を送信する
 - `option（右）` を押したときに、`command` を送信する（＋単体かな）
 - `control（右）` を押したときに、`option` を送信する
