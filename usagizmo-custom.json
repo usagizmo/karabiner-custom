@@ -32,7 +32,7 @@
       ]
     },
     {
-      "description": "`caps lock` を単体で押したときに、`英数` も送信する",
+      "description": "`caps_lock` を単体で押したときに、`英数` も送信する",
       "manipulators": [
         {
           "type": "basic",
